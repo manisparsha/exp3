@@ -7,4 +7,13 @@ public class prime {
        }
        return true;
    }
+   public static void main(String[] args) {
+        // Example usage
+        int number = 29; // Replace with desired number
+        if (isPrime(number)) {
+            System.out.println(number + " is a prime number.");
+        } else {
+            System.out.println(number + " is not a prime number.");
+        }
+    }
 }
