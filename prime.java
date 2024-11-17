@@ -1,5 +1,5 @@
 // Java program to check prime numbers
-public class Prime {
+public class prime {
    public static boolean isPrime(int num) {
        if (num <= 1) return false;
        for (int i = 2; i <= Math.sqrt(num); i++) {
